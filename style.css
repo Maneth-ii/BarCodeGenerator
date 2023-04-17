@@ -1,0 +1,47 @@
+body{
+    font-family: cursive;
+    background-color: black;
+}
+div{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border:none;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    width: fit-content;
+    box-shadow: 3px 3px 0px dodgerblue,5px 5px hotpink;
+
+}
+div input,button{
+    font-family: inherit;
+    outline: none;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 100px;
+    border-radius: 7px;
+    border:1px solid white;
+    background-color: hotpink;
+    font-size: 20px;
+    box-shadow: 3px 3px 0px dodgerblue,5px 5px hotpink;
+
+}
+div input{
+    text-shadow: 0px 1px 0px black;
+    color: rgb(255, 255, 255);
+    background-color: hotpink;
+    box-shadow: 3px 3px 0px dodgerblue,5px 5px hotpink;
+    border-radius: 7px;
+    width: 300px;
+}
+
+#barcode{
+    margin-left: auto;
+    margin-right: auto;
+}
